@@ -1,0 +1,164 @@
+body, html {
+  font-family: "Helvetica";
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #f5dbcf;
+
+}
+
+
+/*navigation*/
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 19px;
+  padding-top: 5%;
+  overflow: hidden;
+  font-weight: bold;
+  display: flex;
+  font-family: "PT Sans", serif;
+  float: right;
+}
+
+img.title{
+  display: flex;
+  float: left;
+  margin-top: 44px;
+  margin-left: 49px;
+  width:60px;
+}
+
+
+nav li a {
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 9% 95%;
+  font-weight: 900;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  transition: background-size .3s;
+  color: rgb(0,0,0,0.75);
+}
+
+nav li a:hover, a:focus {
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-size: 34px;
+  background-size: 100% 5px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("blueland.png");
+  margin-top: -3vh;
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row{
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+  margin-left: -7%;
+  width: 104vw;
+}
+.column{
+  display: flex;
+  flex-direction:  column;
+  flex: 1;
+  border-spacing: 5px;
+  margin: 10px;
+}
+
+.one-column{
+  text-align: center;
+  margin-left: -5%;
+}
+
+.two-column{
+  text-align: center;
+}
+
+.three-column{
+  text-align: right;
+
+}
+h2.CORDILLERA{
+  writing-mode: vertical-rl;
+  height: 4em;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  margin-left: 96vw;
+  padding-top: 240px;
+  color: rgb(0,0,0,0.75);
+}
+
+h2.MISSION{
+  font-family: "Georgia";
+  font-size: 45px;
+  color: rgb(0,0,0,0.7);
+  margin-left: 5%;
+  padding-top: 5%;
+  width: 50%;
+}
+
+/* max-width: 1024px */
+@media screen and (max-width: 724px){
+  /*navigation*/
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 19px;
+    padding-top: 6%;
+    overflow: hidden;
+    display:inline;
+    float: right;
+    text-align: right;
+  }
+
+  nav li a {
+
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #0700EF;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 5px;
+    transition: background-size .3s;
+  }
+
+  nav li a:hover, a:focus {
+    text-align: right;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-size: 60px;
+    background-size: 100% 5px;
+  }
+
+
+  img.title{
+    display: flex;
+    float: left;
+    margin-top: 59px;
+    margin-left: 69px;
+    width: 50px;
+  }
+
+  h1.foot{
+    font-size: 24px;
+  }
+}
