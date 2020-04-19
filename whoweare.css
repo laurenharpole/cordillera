@@ -199,6 +199,7 @@ p.Position  {
   font-weight: 300;
   padding-left: 15%;
   border-bottom: 6px solid #79cdcd;
+  border-width: 20%;
 }
 
 span {
