@@ -237,6 +237,10 @@ h2.paragraph  {
   margin-right: 5%;
 }
 
+span {
+  color: rgb(0,0,0,1);
+}
+
 #socials.one-column{
   text-align: center;
   margin-left: 0%;
