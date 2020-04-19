@@ -198,12 +198,7 @@ p.Position  {
   padding-bottom: 0px;
   font-weight: 300;
   padding-left: 15%;
-  text-decoration: underline solid  18px; 
-  text-underline-position: under;
-  text-decoration-line: underline 6px;
-  -webkit-text-decoration-line: underline solid 10px; 
-  -webkit-text-decoration-color: #79cdcd;
-  
+  border-bottom: 6px solid #79cdcd;
 }
 
 span {
