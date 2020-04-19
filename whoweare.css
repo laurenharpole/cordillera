@@ -3,7 +3,7 @@ body, html {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  background-color: #f5dbcf;
+  background-color:  #ffe9db;
 
 }
 
@@ -35,7 +35,7 @@ nav li a {
   padding: 4px 16px;
   text-decoration: none;
   font-size: 20px;
-  background-image: linear-gradient(currentColor, currentColor);
+  background-image: linear-gradient(#f57c72, #f57c72);
   background-position: 9% 95%;
   font-weight: 900;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ nav li a:hover, a:focus {
   text-align: center;
   padding: 4px 16px;
   text-decoration: none;
-  font-size: 34px;
+  font-size: 20px;
   background-size: 100% 5px;
 }
 
@@ -84,9 +84,19 @@ nav li a:hover, a:focus {
 
 a.foot-link  {
   font-family: "PT Sans", serif;
-  text-decoration: underline;
+  text-decoration: underline solid #f57c72 1.23px;
+  text-decoration-style: wavy;
   color: rgb(0,0,0,0.75);
   font-size: 15px;
+}
+
+a.foot-link:hover  {
+  font-family: "PT Sans", serif;
+  text-decoration: underline solid #f57c72 1.23px;
+  text-decoration-style: wavy;
+  color: #f57c72;
+  font-size: 15px;
+  transition: 0.5s;
 }
 
 h1.foot-link  {
@@ -146,28 +156,7 @@ img.socials-foot{
   text-align: right;
 }
 
-h2.CORDILLERA{
-  writing-mode: vertical-rl;
-  height: 4em;
-  color: black;
-  font-size: 16px;
-  letter-spacing: 0.15em;
-  margin-left: 96vw;
-  padding-top: 240px;
-  color: rgb(0,0,0,0.75);
-  z-index: 400;
-}
-
-h2.MISSION{
-  font-family: "Georgia";
-  font-size: 4vw;
-  color: rgb(0,0,0,0.7);
-  margin-left: 5%;
-  padding-top: 5%;
-  width: 50%;
-}
 h2.We-are{
-
   font-family: "Georgia";
   font-size: 20vw;
   color: rgb(0,0,0,0.7);
@@ -177,17 +166,6 @@ h2.We-are{
   line-height: 0.01;
   z-index: 400;
   margin-bottom: -2%;
-}
-h2.SUBMIT  {
-  font-family: "Georgia";
-  font-size: 4.7vw;
-  z-index: 400;
-  margin-left: 15%;
-  color: rgb(0,0,0,0.75);
-  padding-top: 25px;
-  width: 100%;
-  padding-bottom: 10px;
-  font-weight: 600;
 }
 
 h2.paragraph  {
@@ -204,7 +182,7 @@ h2.paragraph  {
 
 h2.Name  {
   font-family: "PT Sans", serif;
-  font-size: 3.7vw;
+  font-size: 2.8vw;
   color: rgb(0,0,0,0.75);
   font-weight: 450;
   width: 70%;
@@ -222,6 +200,9 @@ h2.Position  {
   padding-bottom: 0px;
   font-weight: 300;
   padding-left: 15%;
+  text-decoration: underline solid #79cdcd 6px;
+  text-underline-position: under;
+  text-decoration-radius: 20%;
 }
 h2.Blurb  {
   font-family: "PT Sans", serif;
