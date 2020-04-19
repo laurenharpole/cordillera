@@ -86,7 +86,7 @@ a.foot-link  {
   font-family: "PT Sans", serif;
   text-decoration: underline solid #f57c72 1.23px;
   text-decoration-style: wavy;
-  color: rgb(0,0,0,0.75);
+  color: #f57c72;
   font-size: 15px;
 }
 
