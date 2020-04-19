@@ -198,13 +198,13 @@ h2.Position  {
   padding-bottom: 0px;
   font-weight: 300;
   padding-left: 15%;
-  text-decoration: underline solid #79cdcd 6px;
+  text-decoration: underline solid 6px;
   text-underline-position: under;
-  text-decoration-radius: 20%;
+  
 }
 
 span {
-  color: rgb(0,0,0,0.75);
+  color: rgb(0,0,0,1);
 }
 
 h2.Blurb  {
