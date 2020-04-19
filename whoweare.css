@@ -200,6 +200,9 @@ h2.Position  {
   padding-left: 15%;
   text-decoration: underline solid 6px;
   text-underline-position: under;
+  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline solid 6px; ;
+  -webkit-text-decoration-color: #79cdcd;
   
 }
 
