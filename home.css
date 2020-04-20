@@ -316,22 +316,22 @@ img.socials-foot{
 
 h2.CORDILLERA{
   writing-mode: vertical-rl;
-  height: 4em;
+  height: 5em;
   color: black;
   font-size: 16px;
   letter-spacing: 0.15em;
   margin-left: 96vw;
-  padding-top: 740px;
+  padding-top: 50%;
   color: rgb(0,0,0,0.75);
 }
 
 h2.MISSION{
   font-family: "Georgia";
-  font-size: 9vw;
+  font-size: 8vw;
   color: rgb(0,0,0,0.7);
   margin-left: 5%;
-  padding-top: 35%;
-  width: 40%;
+  padding-top: 30%;
+  width: 60%;
   overflow: hidden;
   display:inline-flex;
   padding-bottom: 70px;
