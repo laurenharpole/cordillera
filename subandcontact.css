@@ -198,8 +198,6 @@ a.SUBMIT:hover{
   transition: 0.5s;
 }
 
-
-
 #socials.row{
   display: flex;
   flex-direction:  row;
@@ -404,6 +402,8 @@ a.SUBMIT:hover{
   }
 }
 @media screen and (max-width: 724px){ 
+  
+  
   body, html {
   font-family: "Helvetica";
   height: 100vh;
@@ -458,36 +458,6 @@ nav li a:hover, a:focus {
   background-size: 100% 5px;
 }
 
-.row{
-  display: flex;
-  flex-direction:  row;
-  flex-wrap: wrap;
-  z-index: 400;
-  margin-left: 0%;
-  width: 90vw;
-}
-
-.column{
-  display: flex;
-  flex-direction:  column;
-  flex: 1;
-  border-spacing: 5px;
-  margin: 10px;
-  z-index: 400;
-}
-
-.one-column{
-  text-align: center;
-}
-
-.two-column{
-  text-align: center;
-}
-
-.three-column{
-  text-align: right;
-}
-
 a.foot-link  {
   font-family: "PT Sans", serif;
   text-decoration: underline solid #f57c72 1.23px;
@@ -504,7 +474,7 @@ a.foot-link:hover  {
   text-decoration: underline solid #f57c72 1.23px;
   text-decoration-style: wavy;
   color: #f57c72;
-  font-size: 15px;
+  font-size: 2.7vw;
   transition: 0.5s;
 }
 
@@ -512,7 +482,7 @@ h1.foot-link  {
   font-family: "PT Sans", serif;
   text-decoration: none;
   color: rgb(0,0,0,0.75);
-  font-size: 15px;
+  font-size: 2.7vw;
   text-align: left;
   font-weight:lighter;
   width: 75%;
@@ -523,7 +493,7 @@ p.foot-link  {
   text-decoration: none;
   font-weight: bold;
   color: rgb(0,0,0,0.75);
-  font-size: 20px;
+  font-size: 1.7vw;
   line-height: 0.2;
   text-align: left;
 }
@@ -542,7 +512,7 @@ img.socials-foot{
   z-index: 400;
   margin-left: 7%;
   width: 90vw;
-  bottom: 1%;
+  top: 70%;
 }
 
 #foot.column{
