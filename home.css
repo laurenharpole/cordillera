@@ -316,7 +316,7 @@ img.socials-foot{
 
 h2.CORDILLERA{
   writing-mode: vertical-rl;
-  height: 6em;
+  height: 16em;
   color: black;
   font-size: 16px;
   letter-spacing: 0.15em;
@@ -330,7 +330,7 @@ h2.MISSION{
   font-size: 8vw;
   color: rgb(0,0,0,0.7);
   margin-left: 5%;
-  padding-top: 20%;
+  padding-top: 0%;
   width: 70%;
   overflow: hidden;
   display:inline-flex;
