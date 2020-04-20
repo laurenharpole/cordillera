@@ -214,9 +214,9 @@ h2.MISSION{
   img.title{
     display: flex;
     float: left;
-    margin-top: 59px;
+    margin-top: 109px;
     margin-left: 69px;
-    width: 50px;
+    width: 100px;
   }
 
  .bg {
@@ -323,6 +323,7 @@ h2.CORDILLERA{
   margin-left: 96vw;
   padding-top: 100%;
   color: rgb(0,0,0,0.75);
+  z-index: 1;
 }
 
 h2.MISSION{
@@ -335,5 +336,6 @@ h2.MISSION{
   overflow: hidden;
   display:inline-flex;
   padding-bottom: 70px;
+  z-index: 100;
 }
 }
