@@ -401,7 +401,7 @@ a.SUBMIT:hover{
             transform: scale(1.2);
   }
 }
-@media screen and (max-width: 724px){ 
+@media screen and (max-width: 1024px){ 
   
   
   body, html {
