@@ -175,7 +175,7 @@ h2.MISSION{
 }
 
 /* max-width: 1024px */
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1024px){
   /*navigation*/
   nav ul {
     list-style-type: none;
