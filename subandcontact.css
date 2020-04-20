@@ -566,7 +566,7 @@ img.socials-foot{
 
 h2.SUBMIT  {
   font-family: "Georgia";
-  font-size: 5.2vw;
+  font-size: 6.2vw;
   z-index: 400;
   margin-left: 15%;
   color: rgb(0,0,0,0.75);
@@ -610,7 +610,7 @@ a.SUBMIT:hover{
   flex-wrap: wrap;
   z-index: 400;
   margin-left: 9%;
-  margin-top: 0%;
+  margin-top: 40%;
   width: 90vw;
   overflow: hidden;
   display:inline-flex;
