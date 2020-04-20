@@ -430,7 +430,7 @@ nav ul {
 img.title{
   display: flex;
   float: left;
-  margin-top: 80px;
+  margin-top: 44px;
   margin-left: 49px;
   width:100px;
 }
@@ -498,13 +498,6 @@ p.foot-link  {
   text-align: left;
 }
 
-img.socials-foot{
-  width: auto;
-  height: 2vh;
-  margin-right: 10px;
-  padding-top: 3px;
-}
-
 #foot.row{
   display: flex;
   flex-direction:  row;
@@ -534,6 +527,13 @@ img.socials-foot{
 
 #foot.three-column{
   text-align: right;
+}
+
+  img.socials-foot{
+  width: auto;
+  height: 2vh;
+  margin-right: 10px;
+  padding-top: 3px;
 }
 
 h2.SUBMIT  {
@@ -574,8 +574,6 @@ a.SUBMIT:hover{
   transition: 0.5s;
 }
 
-
-
 #socials.row{
   display: flex;
   flex-direction:  row;
@@ -586,7 +584,7 @@ a.SUBMIT:hover{
   width: 90vw;
   overflow: hidden;
   display:inline-flex;
-  padding-bottom: 30vh;
+  padding-bottom: 20vh;
 }
 
 #socials.column{
@@ -625,7 +623,7 @@ a.SUBMIT:hover{
 }
 
 #socials img {
-  width: 2.5vw;
+  width: 3.5vw;
   height: auto;
   opacity: 0.75;
   margin-right: 50%;
