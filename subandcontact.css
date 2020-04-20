@@ -99,6 +99,8 @@ a.foot-link  {
   text-decoration-style: wavy;
   color:#f57c72;
   font-size: 15px;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 0.14em;
   
 }
 
