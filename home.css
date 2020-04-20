@@ -321,17 +321,17 @@ h2.CORDILLERA{
   font-size: 16px;
   letter-spacing: 0.15em;
   margin-left: 96vw;
-  padding-top: 540px;
+  padding-top: 740px;
   color: rgb(0,0,0,0.75);
 }
 
 h2.MISSION{
   font-family: "Georgia";
-  font-size: 5vw;
+  font-size: 9vw;
   color: rgb(0,0,0,0.7);
   margin-left: 5%;
   padding-top: 35%;
-  width: 50%;
+  width: 40%;
   overflow: hidden;
   display:inline-flex;
   padding-bottom: 70px;
