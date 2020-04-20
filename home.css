@@ -219,7 +219,121 @@ h2.MISSION{
     width: 50px;
   }
 
-  h1.foot{
-    font-size: 24px;
-  }
+ .bg {
+  /* The image used */
+  background-image: url("map.png");
+  margin-top: -4vh;
+  /* Full height */
+  height: auto;
+  width: 100vw;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.foot-link  {
+  font-family: "PT Sans", serif;
+  text-decoration: underline solid #f57c72 1.23px;
+  text-decoration-style: wavy;
+  color: #f57c72;
+  font-size: 15px;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.14em;
+  
+}
+
+a.foot-link:hover  {
+  font-family: "PT Sans", serif;
+  text-decoration: underline solid #f57c72 1.23px;
+  text-decoration-style: wavy;
+  color: none;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+span {
+  color: rgb(0,0,0,1);
+}
+
+h1.foot-link  {
+  font-family: "PT Sans", serif;
+  text-decoration: none;
+  color: rgb(0,0,0,0.75);
+  font-size: 15px;
+  text-align: left;
+  font-weight:lighter;
+  width: 75%;
+}
+
+p.foot-link  {
+  font-family: "PT Sans", serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0,0,0,0.75);
+  font-size: 20px;
+  line-height: 0.2;
+  text-align: left;
+}
+
+img.socials-foot{
+  width: auto;
+  height: 2vh;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+
+#foot.row{
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  z-index: 400;
+  margin-left: 7%;
+  width: 90vw;
+}
+
+#foot.column{
+  display: flex;
+  flex-direction:  column;
+  flex: 1;
+  border-spacing: 5px;
+  margin: 10px;
+  z-index: 400;
+}
+
+#foot.one-column{
+  text-align: center;
+
+}
+
+#foot.two-column{
+  text-align: center;
+}
+
+#foot.three-column{
+  text-align: right;
+}
+
+h2.CORDILLERA{
+  writing-mode: vertical-rl;
+  height: 4em;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  margin-left: 96vw;
+  padding-top: 240px;
+  color: rgb(0,0,0,0.75);
+}
+
+h2.MISSION{
+  font-family: "Georgia";
+  font-size: 5vw;
+  color: rgb(0,0,0,0.7);
+  margin-left: 5%;
+  padding-top: 5%;
+  width: 50%;
+  overflow: hidden;
+  display:inline-flex;
+  padding-bottom: 70px;
+}
 }
