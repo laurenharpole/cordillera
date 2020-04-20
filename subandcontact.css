@@ -99,6 +99,7 @@ a.foot-link  {
   text-decoration-style: wavy;
   color:#f57c72;
   font-size: 15px;
+  
 }
 
 a.foot-link:hover  {
@@ -167,27 +168,6 @@ img.socials-foot{
   text-align: right;
 }
 
-h2.CORDILLERA{
-  writing-mode: vertical-rl;
-  height: 4em;
-  color: black;
-  font-size: 16px;
-  letter-spacing: 0.15em;
-  margin-left: 96vw;
-  padding-top: 240px;
-  color: rgb(0,0,0,0.75);
-  z-index: 400;
-}
-
-h2.MISSION{
-  font-family: "Georgia";
-  font-size: 4vw;
-  color: rgb(0,0,0,0.7);
-  margin-left: 5%;
-  padding-top: 5%;
-  width: 50%;
-}
-
 h2.SUBMIT  {
   font-family: "Georgia";
   font-size: 4.7vw;
@@ -198,6 +178,8 @@ h2.SUBMIT  {
   width: 100%;
   padding-bottom: 10px;
   font-weight: 600;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.1em;
 }
 
 a.SUBMIT{
