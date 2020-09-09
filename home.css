@@ -10,56 +10,7 @@ body, html {
   /* #def2eb; */
 }
 
-/*navigation*/
-nav ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 19px;
-  padding-top: 0px;
-  margin-right: 20px;
-  overflow: hidden;
-  display: flex;
-  float: right;
-  text-transform: uppercase;
-  font-family: 'Helvetica', sans-serif;
-  font-stretch:extra-expanded;
-  transform: scale(1.28, 1);
-  -webkit-transform: scale(1.2, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.2, 1); /* Firefox */
-  -ms-transform: scale(1.2, 1); /* IE 9+ */
-  -o-transform: scale(1.2, 1); /* Opera */
-}
 
-img.title{
-  display: flex;
-  float: left;
-  margin-top: 18px;
-  margin-left: 20px;
-  width:60px;
-  filter:none;
-}
-
-nav li a {
-  text-align: center;
-  padding: 0px 8px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  color: #222a6e;
-  background-image: linear-gradient(#cdddfb, #cdddfb);
-  background-position: 4% 85%;
-  background-repeat: no-repeat;
-  background-size: 0% 25px;
-  transition: background-size .3s;
-}
-
-nav li a:hover, a:focus {
-  opacity: 0.9;
-  text-align: center;
-  padding: 4px 16px;
-  text-decoration: none;
-  background-size: 100% 25px;
-}
 
 .content {
   position: fixed;
@@ -80,16 +31,11 @@ nav li a:hover, a:focus {
   right: 0;
   z-index: 1;
   display: block;
-  width: 100vw;
+  width: 100%;
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.foot-link {
-  padding-top: 70px;
-  padding-left: 5px;
 }
 
 a.foot-link  {
@@ -116,8 +62,7 @@ a.foot-link:hover  {
   transition: 0.5s;
 }
 
-
-nav li a {
+/* nav li a {
   text-align: center;
   padding: 0px 8px;
   text-decoration: none;
@@ -137,12 +82,11 @@ nav li a:hover, a:focus {
   padding: 4px 16px;
   text-decoration: none;
   background-size: 100% 25px;
-}
+} */
 
 span {
   color: rgb(0,0,0,1);
 }
-
 
 .submit a {
   font-family: 'Helvetica', sans-serif;
@@ -155,240 +99,83 @@ span {
   text-decoration: none;
   color: #222a6e;
   font-weight: normal;
-  position: fixed;
+  /* position: fixed; */
   font-size: 14px;
   border-radius: 10vw;
   background: #f5e0d0;
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: 11px;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-top: 65.5vh;
   box-shadow: 0px 4px 14px hsl(4, 19%, 75%);
-}
-
-
-img.stick-sp {
-  width: 24vw;
-  margin-top: -470px;
-  margin-left: 78vw;
-  margin-bottom: 100px;
-  transform: rotate(13deg);
 }
 
 h2.MISSION{
   font-family: "Georgia";
   font-size: 35px;
   color: #222a6e;;
-  margin-left: 0px;
-  margin-top: 36vh;
-  width: 600px;
   overflow: hidden;
   display:inline-flex;
-    position: fixed;
-  padding-bottom: 0px;
   z-index: 400;
 }
 
+/* the entire text class */
+.message {
+  margin-left: 50px;
+  margin-top: 36vh;
+  padding-bottom: 0px;
+  width: 600px;
+}
+
+.message-foot {
+  display: inline-block;
+  margin-top: 13vh;
+  margin-left: 20px;
+  width: 100%;
+}
+
+h1.foot-link {
+  margin-top: -30px;
+  /* padding-left: 20vw; */
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #222a6e;
+  text-align: right;
+  margin-right: 50px;
+
+  /* margin-left:calc(50% - 70px); */
+  font-size: 15px;
+  font-weight:400;
+
+}
+
 p.MISSION{
-    margin-left: 104px;
-      color: #222a6e;;
-    font-family: 'Helvetica', sans-serif;
-    font-stretch:extra-expanded;
-    transform: scale(1.1, 1);
+  color: #222a6e;;
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
   -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
   -moz-transform: scale(1.1, 1); /* Firefox */
   -ms-transform: scale(1.1, 1); /* IE 9+ */
   -o-transform: scale(1.1, 1); /* Opera */
   letter-spacing: 0.5px;;
-  margin-top: 59vh;
-  position: fixed;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  /* position: fixed; */
   font-size: 16px;
+  margin-left: 30px;
   font-weight: thin;
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
   z-index: 400;
 }
 
 
-a
-{
-  text-decoration: none;
-  color: #8d949d;
-  transition: color 0.3s ease;
-}
-
-a:hover
-{
-  color: #2c2f46;
-}
-
-#menuToggle
-{
-  display: block;
-  position: absolute;
-  top: 50px;
-  right:25px;
-  z-index: 1;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  -webkit-touch-callout: none;
-}
-
  @media screen and (max-width: 1000px){
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background: #212a6a;
-  border-radius: 3px;
-  z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
 
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
 
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
 
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #212a6a;
-}
-
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
-  position: absolute;
-  width: 300px;
-  margin: -100px 0 0 0;
-  padding: 50px;
-  padding-top: 125px;
-  right: -100px;
-  height: 100vh;
-  background-color: rgb(252, 252, 252,0.9);
-  list-style-type: none;
-  display:block;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#menu li
-{
-  padding: 10px 0;
-  font-size: 42px;
-}
-
-/*
- * And let's fade it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: scale(1.0, 1.0);
-  opacity: 1;
-}
-
-h2.MISSION{
-  font-family: "Georgia";
-  font-size: 35px;
-  color: #222a6e;;
-  margin-left: 20px;
-  margin-top: 44vh;
-  text-align: left;
-  padding-bottom: 0px;
-  z-index: 0;
-  text-align: left;
-  margin-right: 50px;
-  margin-bottom: 0px;
-  position: fixed;
-  display: flex;
-  width: 500px;
-  word-wrap: break-word;
-}
-
-p.MISSION{
-    text-align: left;
-    margin-left: 42px;
-      color: #222a6e;;
-    font-family: 'Helvetica', sans-serif;
-    word-wrap: break-word;
-  letter-spacing: 0.5px;;
-  margin-top: 67vh;
-  position: fixed;
-  display: flex;
-  font-size: 16px;
-  font-weight: thin;
-  margin-bottom: 0px;
-  z-index: 0;
-  width: 400px;
-}
-
-.submit a {
-  font-size: 14px;
-  border-radius: 10vw;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: -50px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin-top: 76.5vh;
-}
 
 }

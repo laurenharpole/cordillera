@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Lauren Harpole</title>
   <link href="issues.css" type="text/css" rel="stylesheet" />
+  <link href="nav3.css" type="text/css" rel="stylesheet" />
+
   <!-- Load jQuery --->
   <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
   <!-- Load activity script --->
@@ -13,29 +15,39 @@
   <div class="bg">
     <header>
       <!--- navigation --->
+      <!--- navigation --->
+      <a href="index2.html"><img src="logo.png" class="title"></a>
+
       <nav>
-        <a href="index2.html"><img src="logo.png" class="title"></a>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="subandcontact.html">submissions/contact</a></li>
-          <li><a href="issues.html">issues</a></li>
-          <li><a href="whoweare.html">who we are</a></li>
-        </ul>
-      </nav>
 
-
-
-      <div class="row" id="submit">
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="subandcontact.html">submissions/contact</a></li>
+        <li><a href="issues.html">issues</a></li>
+        <li><a href="whoweare.html">who we are</a></li>
+      </ul>
+    </nav>
+    <script src="app.js"></script>
+
+          <div class="row" id="submit">
+          </div>
+
+<!--
+      <div class="row" id="submit">
+      </div> -->
       <!-- <h2 class="CORDILLERA"> CORDILLERA</h2> -->
-
-      <h2 class="We-are">great things are <br>currently in the making.</h2>
-      <p class="We-are">Our team is working hard to bring to you, our first issue.</p>
-
+      <div class="row" id="submit">
+        <h2 class="SUBMIT">great things are <br>currently in the making.</h2>
+      <p class="SUBMIT">Our team is working hard to bring to you, our first issue.</p>
+      </div>
 
 <footer>
-
-  <div class="blob"></div>
 
   <!-- <div class="blob3"></div> -->
       <div class="row" id="foot">
@@ -51,7 +63,7 @@
           <div class='two-column'id="foot">
             <p class="foot-link">On Campus</p>
             <h1 class="foot-link">
-            Cornell Univserity location on campus</h1>
+            Cornell University location on campus</h1>
           </div>
         </div>
         <div class='column'id="foot">
@@ -65,7 +77,14 @@
         </div>
       </div>
       </div>
-        <div class="blob"></div></footer>
+
     </body>
 
+</footer>
+  <div class="blob">
+    <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+    <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+    <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+    </svg>
+  </div>
     </html>

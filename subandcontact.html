@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Lauren Harpole</title>
   <link href="subandcontact.css" type="text/css" rel="stylesheet" />
+  <link href="nav2.css" type="text/css" rel="stylesheet" />
+
   <!-- Load jQuery --->
   <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
   <!-- Load activity script --->
@@ -13,17 +15,27 @@
   <div class="bg">
     <header>
       <!--- navigation --->
-      <nav>
-        <a href="index2.html"><img src="logo.png" class="title"></a>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="subandcontact.html">submissions/contact</a></li>
-          <li><a href="issues.html">issues</a></li>
-          <li><a href="whoweare.html">who we are</a></li>
-        </ul>
-      </nav>
+      <!--- navigation --->
+      <a href="index2.html"><img src="logo.png" class="title"></a>
 
-      <img src="team.svg"  class="team-img">
+      <nav>
+
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="subandcontact.html">submissions/contact</a></li>
+        <li><a href="issues.html">issues</a></li>
+        <li><a href="whoweare.html">who we are</a></li>
+      </ul>
+    </nav>
+    <script src="app.js"></script>
+
+      <img src="contact.svg"  class="team-img">
 
       <!-- <h2 class="CORDILLERA"> CORDILLERA</h2> -->
       <div class="row" id="submit">

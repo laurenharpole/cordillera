@@ -6,57 +6,6 @@ body, html {
   background-color:  #f3ecec;
 }
 
-/*navigation*/
-nav ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 19px;
-  padding-top: 50px;
-  margin-right: 65px;
-  overflow: hidden;
-  display: flex;
-  float: right;
-  text-transform: uppercase;
-  font-family: 'Helvetica', sans-serif;
-  font-stretch:extra-expanded;
-  transform: scale(1.28, 1);
-  -webkit-transform: scale(1.2, 1); /* Safari and Chrome */
-  -moz-transform: scale(1.2, 1); /* Firefox */
-  -ms-transform: scale(1.2, 1); /* IE 9+ */
-  -o-transform: scale(1.2, 1); /* Opera */
-}
-
-img.title{
-  display: flex;
-  float: left;
-  margin-top: 34px;
-  margin-left: 40px;
-  width:60px;
-  filter:none;
-  position: absolute;
-}
-
-nav li a {
-  text-align: center;
-  padding: 2px 8px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  color: #222a6e;
-  background-image: linear-gradient(#cdddfb, #cdddfb);
-  background-position: 4% 85%;
-  background-repeat: no-repeat;
-  background-size: 0% 25px;
-  transition: background-size .3s;
-}
-
-nav li a:hover, a:focus {
-  opacity: 0.9;
-  text-align: center;
-  padding: 4px 16px;
-  text-decoration: none;
-  background-size: 100% 25px;
-}
 
 .row{
   display: flex;
@@ -91,6 +40,7 @@ nav li a:hover, a:focus {
 a.foot-link  {
   font-family: 'Helvetica', sans-serif;
   font-stretch:extra-expanded;
+   text-decoration: none;
   transform: scale(1.1, 1);
   -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
   -moz-transform: scale(1.1, 1); /* Firefox */
@@ -140,6 +90,7 @@ a.foot-link:hover  {
 span {
   color: #222a6e;
   letter-spacing: 0.5px;
+   text-decoration: none;
 }
 
 h1.foot-link  {
@@ -208,23 +159,26 @@ img.socials-foot{
   text-align: right;
 }
 
+#submit.row{
+  justify-content: center;
+  width: 100%;
+}
 img.team-img {
   justify-content: center;
   width: 200px;
   position: absolute;
-  left: calc(50% - 90px);
-  top: 19vh;
+  left: calc(50% - 70px);
+  top: 23vh;
 }
 
 h2.SUBMIT{
   font-family: "Georgia";
   font-size: 40px;
   z-index: 400;
-  margin-left: 15%;
+  margin: 0 auto;
   color: #222a6e;;
-  margin-top: 37vh;
-  width: 100%;
-  margin-bottom: 0;
+  margin-top: 250px;
+  margin-bottom: 15px;
   font-weight: 600;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
@@ -233,11 +187,12 @@ h2.SUBMIT{
 
 p.SUBMIT  {
   z-index: 400;
-  margin-left: 25%;
+  margin-left: 0%;
   color: #222a6e;;
-  margin-top: 15px;
+  margin: 0 auto;
+  /* margin-top: 15px; */
   width: 65%;
-  margin-bottom: 0;
+  margin-bottom: 0vh;
   font-weight: 400;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
@@ -260,9 +215,11 @@ a.SUBMIT{
   background-color: hsl(222, 84%, 89%);
   display: inline-block !important;
   word-break: break-all !important;
+   text-decoration: none;
 }
 span {
  color: #222a6e;
+ text-decoration: none;
 }
 
 a.SUBMIT:hover{
@@ -352,13 +309,13 @@ a.SUBMIT:hover{
   border-radius: 100% ;
   -webkit-animation: wobble 4s alternate ease-in-out infinite;
           animation: wobble 4s alternate ease-in-out infinite;
-          z-index: 1;
+          z-index: 0;
 }
 .blob:after {
   left: calc(70% - 60%/2);
   border-radius: 100% ;
   animation: wobble 4s ease-in-out alternate-reverse infinite;
-  z-index: 1;
+  z-index: 0;
 }
 
 .blob2 {
@@ -386,7 +343,7 @@ a.SUBMIT:hover{
   background-color:#f7e1d1;
    color:#f7e1d1;/*#FFC300  */
   box-shadow: 0 0 0 1px;
-  z-index: 2;
+  z-index: 0;
 }
 
 .blob2:before {
@@ -394,7 +351,7 @@ a.SUBMIT:hover{
   border-radius:100%;
   -webkit-animation: wobble 2s alternate ease-in-out infinite;
           animation: wobble 2s alternate ease-in-out infinite;
-          z-index: 2;
+          z-index: 0;
 }
 
 {filter: blur(10px)}
@@ -404,7 +361,7 @@ a.SUBMIT:hover{
   border-radius: 100%;
   animation: wobble 2s ease-in-out alternate-reverse infinite;
   animation: wobble 2s alternate ease-in-out infinite;
-  z-index: 2;
+  z-index: 0;
 }
 
 .blob3 {
@@ -474,10 +431,7 @@ a.SUBMIT:hover{
       margin-bottom: -4px;
   }
 
-  /*navigation*/
-  nav ul {
-    display:inline;
-  }
+
 
  .bg {
   margin-top: -4vh;

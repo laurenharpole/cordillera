@@ -4,40 +4,60 @@
   <meta charset="UTF-8">
   <title>Lauren Harpole</title>
   <link href="whoweare.css" type="text/css" rel="stylesheet" />
+  <link href="nav2.css" type="text/css" rel="stylesheet" />
+
   <!-- Load jQuery --->
+
   <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
   <!-- Load activity script --->
   <script src="scripts/nav.js" type="text/javascript"></script>
+
 </head>
 <body>
   <div class="bg">
     <header>
       <!--- navigation --->
+      <a href="index2.html"><img src="logo.png" class="title"></a>
+
       <nav>
-        <a href="index2.html"><img src="logo.png" class="title"></a>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="subandcontact.html">submissions/contact</a></li>
-          <li><a href="issues.html">issues</a></li>
-          <li><a href="whoweare.html">who we are</a></li>
-        </ul>
-      </nav>
+
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="subandcontact.html">submissions/contact</a></li>
+        <li><a href="issues.html">issues</a></li>
+        <li><a href="whoweare.html">who we are</a></li>
+      </ul>
+    </nav>
+    <script src="app.js"></script>
 
 
 
       <div class="row" id="submit">
       </div>
       <!-- <h2 class="CORDILLERA"> CORDILLERA</h2> -->
-
+<!-- can add back
       <h2 class="We-are">who</h2>
-      <h2 class="We-are">we are.</h2>
-<!-- If you have a submission or questions about the magazine, submission <a href="#">guidlines</a>,  recruitment, or more, send us an email.</h2> -->
+      <h2 class="We-are">we are.</h2> -->
+      <div class="header-block">
+      <!-- <img src="talk.svg" class="We-are"> -->
+      <h2 class="We-are" >Who We Are</h2>
+
+    </div>
+      <!-- <h2 class="We-are">we are.</h2> -->
+      <!-- can put back in
+
       <div class="row" id="socials">
-        <div class='column' id="socials">
+        <div class='column' id="socials"> -->
           <!-- <div class='one-column' id="fourth">
             <img src="ig.png" width="50px" id="socials">
           </div> -->
-        </div>
+        <!-- </div>
         <div class='column' id="socials">
           <div class='two-column' id="socials">
             <img src="ex.jpg" width="70%" id="second">
@@ -55,16 +75,16 @@
         </div>
         <div class='column' id="socials">
           <div class='five-column'  id="third">
-            <img src="ex.jpg" width="80%" id="socials">
+            <img src="ex.jpg" width="90%" id="socials">
           </div>
         </div>
       </div>
       <div class="row" id="socials">
         <div class='column' id="socials">
           <div class='one-column' id="socials">
-            <img src="ex.jpg" width="110%" id="socials">
+            <img src="ex.jpg" width="110%" id="socials"> -->
             <!-- move down by lke 15% -->
-          </div>
+          <!-- </div>
         </div>
         <div class='column' id="socials">
           <div class='two-column' id="third">
@@ -75,7 +95,7 @@
           <div class='three-column'  id="third">
             <img src="ex.jpg" width="70%" id="socials">
               <!-- move down by lke 5% -->
-          </div>
+          <!-- </div>
         </div>
         <div class='column' id="socials">
           <div class='four-column'  id="socials">
@@ -84,10 +104,10 @@
         </div>
         <div class='column' id="socials">
           <div class='five-column'  id="fourth">
-            <img src="ex.jpg" width="100%" id="socials">
+            <img src="ex.jpg" width="50%" id="socials">
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="row" id="socials">
         <div class='column' id="socials">
           <div class='one-column' id="socials">
@@ -116,7 +136,7 @@
         </div>
       </div> -->
       <div class="row" id="submit">
-        <h2 class="paragraph">About Us Blurb. Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide. Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam sin hend qui, ad sed cibo ceteroro splendide.</h2>
+        <h2 class="paragraph">About Us Blurb. Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.</h2>
       </div>
       <!-- <hr class="line"> -->
       <div class="row" id="member">
@@ -124,17 +144,25 @@
           <div class='one-column' id="member">
             <img src="ex.jpg" width="50px" id="socials">
             <p class="Position"><span>Name Yeah</span></p>
-            <h2 class="Name">SPANISH AND ENGLISH EDITOR</h2>
-            <!-- <h2 class="Blurb">I am Lucillini, and I make linguine and succinctly critque the state of the world. Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.</h2> -->
+            <h2 class="Name"><span class="Name">SPANISH AND ENGLISH EDITOR</span></h2>
+            <h2 class="Blurb">I am Lucillini, and I make linguine and succinctly critque the state of the world. </h2>
           </div>
         </div>
         <div class='column' id="member">
           <div class='one-column' id="member">
             <img src="ex.jpg" width="50px" id="socials">
             <p class="Position"><span>Name Yeah</span></p>
-            <h2 class="Name">WEB DEVELOPER</h2>
+            <h2 class="Name"><span class="Name">WEB DEVELOPER</span></h2>
+            <h2 class="Blurb">I am Lucillini, and I make linguine and succinctly critque the state of the world. </h2>
 
-            <!-- <h2 class="Blurb"> Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.</h2> -->
+          </div>
+        </div>
+        <div class='column' id="member">
+          <div class='three-column' id="member">
+            <img src="ex.jpg" width="50px" id="socials">
+            <p class="Position"><span>Name Yeah</span></p>
+            <h2 class="Name"><span class="Name">EDITORIAL</span></h2>
+            <h2 class="Blurb">I am Lucillini, and I make linguine and succinctly critque the state of the world. </h2>
 
           </div>
         </div>
@@ -144,8 +172,8 @@
           <div class='one-column' id="member">
             <img src="ex.jpg" width="50px" id="socials">
             <p class="Position"><span>Name Yeah</span></p>
-            <h2 class="Name">EDITORIAL</h2>
-            <!-- <h2 class="Blurb"> Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.</h2> -->
+            <h2 class="Name"><span class="Name">EDITORIAL</span></h2>
+            <h2 class="Blurb">I am Lucillini, and I make linguine and succinctly critque the state of the world. </h2>
 
           </div>
         </div>
@@ -153,13 +181,20 @@
           <div class='two-column' id="member">
             <img src="ex.jpg" width="50px" id="socials">
             <p class="Position"><span>Name Yeah</span></p>
-            <h2 class="Name">EDITORIAL</h2>
-            <!-- <h2 class="Blurb"> Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.</h2> -->
-
+            <h2 class="Name"><span class="Name">PORTUGUESE EDITOR</span></h2>
+            <h2 class="Blurb">I am Lucillini, and I make linguine and succinctly critque the state of the world. </h2>
+          </div>
+        </div>
+        <div class='column' id="member">
+          <div class='three-column' id="member">
+            <img src="ex.jpg" width="50px" id="socials">
+            <p class="Position"><span>Name Yeah</span></p>
+            <h2 class="Name"><span class="Name">FRENCH EDITOR</span></h2>
+            <h2 class="Blurb">I am Lucillini, and I make linguine and succinctly critque the state of the world. </h2>
           </div>
         </div>
       </div>
-      <div class="row" id="member">
+      <!-- <div class="row" id="member">
         <div class='column' id="member">
           <div class='one-column' id="member">
             <img src="ex.jpg" width="50px" id="socials">
@@ -167,18 +202,18 @@
             <h2 class="Name">PORTUGUESE EDITOR</h2>
             <!-- <h2 class="Blurb"> Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.</h2> -->
 
-          </div>
+          <!-- </div>
         </div>
         <div class='column' id="member">
           <div class='two-column' id="member">
             <img src="ex.jpg" width="50px" id="socials">
             <p class="Position"><span>Name Yeah</span></p>
-            <h2 class="Name">FRENCH EDITOR</h2>
+            <h2 class="Name">FRENCH EDITOR</h2> -->
             <!-- <h2 class="Blurb"> Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.Liber convenire eum cu aperiam singulis hend qui, ad sed cibo ceteroro splendide.</h2> -->
-
+<!--
           </div>
         </div>
-      </div>
+      </div> -->
 <!-- <hr class="line"> -->
 <br></br><br></br><br></br>
 <footer>
@@ -210,6 +245,5 @@
       </div>
       </div>
     </body>
-    <p> there are nine images on thewho we  are thing at the top in case we add  more people ik where to put  their  photo</p>
 
     </html>
