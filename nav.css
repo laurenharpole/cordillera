@@ -21,8 +21,8 @@ nav ul {
 img.title{
   display: flex;
   float: left;
-  margin-top: -223px;
-  margin-left: 49px;
+  margin-top: -240px;
+  margin-left: 30px;
   width:60px;
 }
 
@@ -59,8 +59,8 @@ nav li a:hover, a:focus {
 .hamburger {
   position: fixed;
   cursor: pointer;
-  margin-top: -223px;
-  right: 60px;
+  margin-top: -225px;
+  right: 40px;
   transform: translate(-5%, -50%);
   z-index: 500;
   margin-bottom: 20px;
@@ -97,7 +97,7 @@ nav {
 }
 .nav-links li {
   opacity: 0;
-  text-align: center;
+  margin: 0 auto;
   margin-top: 10vh;
 }
 .nav-links li a {
@@ -118,27 +118,28 @@ li.fade {
 
 /* max-width: 1024px */
 @media screen and (max-width: 1024px){
-  /* img.title{
-    margin-top: -206px;
-    margin-left: 49px;
-    width: 100px;
+  img.title{
+    margin-top: -250px;
+    margin-left: 20px;
+
   }
-  .line {
-    width: 60px;
-    height: 3px;
-    background: navy;
-    margin: 8px;
+  .nav-links li {
+  margin-left: 10vw;
+  }
+  .nav-links li a {
+    font-size: 20px;
   }
 
   .hamburger {
     position: fixed;
     cursor: pointer;
-    margin-top: -185px;
-    right: 60px;
+    margin-top:-235px;
+    right: 35px;
     transform: translate(-5%, -50%);
     z-index: 500;
     margin-bottom: 20px;
     z-index: 9999;
-  } */
+  }
+
 
 }
