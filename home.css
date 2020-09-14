@@ -197,7 +197,7 @@ p.SUBMIT  {
   }
   h2.SUBMIT{
     font-family: "Georgia";
-    font-size: 26px;
+    font-size: 24px;
     z-index: 400;
     color: #222a6e;;
     padding-top: 150px;
@@ -214,7 +214,7 @@ p.SUBMIT  {
     margin-left: 50px;
     color: #222a6e;;
     text-align: left;
-    width: 350px;
+    width: 320px;
     margin-bottom: 35vh;
     font-weight: 400;
     text-underline-offset: 0.2em;
