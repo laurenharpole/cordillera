@@ -122,6 +122,10 @@ li.fade {
 
   }
 
+  .nav-links li a {
+    font-size: 20px;
+  }
+
   .hamburger {
     position: fixed;
     cursor: pointer;
