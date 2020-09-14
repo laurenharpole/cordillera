@@ -60,7 +60,7 @@ nav li a:hover, a:focus {
   position: fixed;
   cursor: pointer;
   margin-top:60px;
-  right: 60px;
+  right: 40px;
   transform: translate(-5%, -50%);
   z-index: 500;
   margin-bottom: 20px;
@@ -116,18 +116,11 @@ li.fade {
 
 /* max-width: 1024px */
 @media screen and (max-width: 1024px){
-  /* img.title{
+  img.title{
     margin-top: 109px;
-    margin-left: 69px;
-    width: 100px;
-  }
-  .line {
-    width: 60px;
-    height: 3px;
-    background: navy;
-    margin: 8px;
-  }
+    margin-left: 59px;
 
+  }
 
   .hamburger {
     position: fixed;
@@ -138,6 +131,6 @@ li.fade {
     z-index: 500;
     margin-bottom: 20px;
     z-index: 9999;
-  } */
+  }
 
 }

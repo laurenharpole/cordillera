@@ -241,10 +241,10 @@ p.SUBMIT  {
   /* footer info */
   h1.foot-link  {
     font-size: 18px;
-    width: 50%;
-    margin-left:  19vw;
+    width: 300px;
+    /* margin-left:  21vw; */
     text-align: center;
-    z-index: 400;
+    margin: 0 auto;
   }
 
   /* footer header */
