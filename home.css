@@ -197,7 +197,7 @@ p.SUBMIT  {
   }
   h2.SUBMIT{
     font-family: "Georgia";
-    font-size: 28px;
+    font-size: 26px;
     z-index: 400;
     color: #222a6e;;
     padding-top: 150px;
@@ -227,7 +227,7 @@ p.SUBMIT  {
     -ms-transform: scale(1.1, 1); /* IE 9+ */
     -o-transform: scale(1.1, 1); /* Opera */
     letter-spacing: 0.5px;;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: thin;
     line-height: 1.5;
     z-index: 400;
