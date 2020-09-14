@@ -116,7 +116,7 @@ li.fade {
 
 /* max-width: 1024px */
 @media screen and (max-width: 1024px){
-  img.title{
+  /* img.title{
     margin-top: 109px;
     margin-left: 69px;
     width: 100px;
@@ -138,6 +138,6 @@ li.fade {
     z-index: 500;
     margin-bottom: 20px;
     z-index: 9999;
-  }
+  } */
 
 }
