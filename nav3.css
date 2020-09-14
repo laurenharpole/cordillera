@@ -1,10 +1,10 @@
 /*navigation*/
 nav ul {
   list-style-type: none;
-  margin: 0px;
+
   padding: 19px;
-  padding-top: 50px;
-  margin-right: 65px;
+  padding-top: 60px;
+  /* margin-right: 0px; */
   overflow: hidden;
   display: flex;
   float: right;
@@ -27,6 +27,7 @@ img.title{
 }
 
 nav li a {
+  margin: 0 auto;
   text-align: center;
   padding: 2px 8px;
   text-decoration: none;
