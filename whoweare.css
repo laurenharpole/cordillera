@@ -546,7 +546,7 @@ a:hover
   /* footer info */
   h1.foot-link  {
     font-size: 18px;
-    width: 300px;
+    width: 90%;
     /* margin-left:  21vw; */
     text-align: center;
     margin: 0 auto;
