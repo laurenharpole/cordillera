@@ -131,8 +131,9 @@ img.socials-foot{
 }
 
 #submit.row{
-  justify-content: center;
   width: 100%;
+
+    display: flex;
 }
 h2.SUBMIT{
   font-style: italic;
@@ -141,8 +142,8 @@ h2.SUBMIT{
   z-index: 400;
   margin: 0 auto;
   color: #222a6e;;
-  margin-top: 200px;
-  margin-bottom: 15px;
+  padding-top: 150px;
+  padding-bottom: 15px;
   font-weight: 600;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
@@ -151,12 +152,11 @@ h2.SUBMIT{
 
 p.SUBMIT  {
   z-index: 400;
-  margin-left: 0%;
   color: #222a6e;;
   margin: 0 auto;
   /* margin-top: 15px; */
-  width: 65%;
-  margin-bottom: 35vh;
+  /* width: 65%; */
+  padding-bottom: 35vh;
   font-weight: 400;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;

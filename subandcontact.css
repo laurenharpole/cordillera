@@ -6,7 +6,6 @@ body, html {
   background-color:  #f3ecec;
 }
 
-
 .row{
   display: flex;
   flex-direction:  row;
@@ -63,29 +62,6 @@ a.foot-link:hover  {
   text-decoration: none;
   background-size: 30% 25px;
 }
-
-
-/* nav li a {
-  text-align: center;
-  padding: 2px 8px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  color: #222a6e;
-  background-image: linear-gradient(#cdddfb, #cdddfb);
-  background-position: 4% 85%;
-  background-repeat: no-repeat;
-  background-size: 0% 25px;
-  transition: background-size .3s;
-} */
-
-/* nav li a:hover, a:focus {
-  opacity: 0.9;
-  text-align: center;
-  padding: 4px 16px;
-  text-decoration: none;
-  background-size: 100% 25px;
-} */
 
 span {
   color: #222a6e;
@@ -177,7 +153,7 @@ h2.SUBMIT{
   z-index: 400;
   margin: 0 auto;
   color: #222a6e;;
-  margin-top: 250px;
+  padding-top: 360px;
   margin-bottom: 15px;
   font-weight: 600;
   text-underline-offset: 0.2em;
