@@ -117,7 +117,7 @@ li.fade {
 /* max-width: 1024px */
 @media screen and (max-width: 1024px){
   img.title{
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 30px;
 
   }
@@ -125,7 +125,7 @@ li.fade {
   .hamburger {
     position: fixed;
     cursor: pointer;
-    margin-top:90px;
+    margin-top:80px;
     right: 35px;
     transform: translate(-5%, -50%);
     z-index: 500;
