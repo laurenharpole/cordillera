@@ -144,7 +144,7 @@ img.team-img {
   width: 200px;
   position: absolute;
   left: calc(50% - 70px);
-  top: 23vh;
+  padding-top: 150px;
 }
 
 h2.SUBMIT{
@@ -168,7 +168,6 @@ p.SUBMIT  {
   margin: 0 auto;
   /* margin-top: 15px; */
   width: 65%;
-  margin-bottom: 0vh;
   font-weight: 400;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
@@ -518,7 +517,7 @@ a.SUBMIT:hover{
      color:  #f7e1d1;
     /* #FFC300  */
     box-shadow: 0 0 0 1px;
-    z-index: 0;
+    z-index: -1;
   }
   .blob3:before {
     left: calc(70% - 60%/2);
@@ -539,9 +538,8 @@ a.SUBMIT:hover{
 
   img.socials-foot {
       margin-bottom: -4px;
+        z-index: 400;
   }
-
-
 
  .bg {
   margin-top: -4vh;
@@ -550,6 +548,7 @@ a.SUBMIT:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 /* animated highlight for mobile */
@@ -559,11 +558,13 @@ a.foot-link  {
   margin-left: 0px;
   font-size: 18px;
   background-position: 50% 85%;
+    z-index: 400;
 }
 
 /* animated highlight for mobile */
 a.foot-link:hover  {
   background-size: 26% 25px;
+    z-index: 400;
 }
 
 
@@ -574,6 +575,7 @@ h1.foot-link  {
   /* margin-left:  21vw; */
   text-align: center;
   margin: 0 auto;
+    z-index: 400;
 }
 
 /* footer header */
@@ -581,6 +583,8 @@ p.foot-link  {
   font-size: 18px;
   margin-left: 10px;
   text-align: center;
+    z-index: 400;
+
 }
 
 
@@ -596,7 +600,7 @@ p.foot-link  {
   flex-direction:  column;
   flex: 1;
   border-spacing: 5px;
-  margin: 50px;
+  margin: 20px;
   z-index: 400;
 }
 
@@ -617,14 +621,15 @@ margin: 20 auto;
   overflow: hidden;
   display:inline-flex;
   padding-bottom: 17vh;
+    z-index: 400;
 }
 
 #socials img {
-  width: 60px;
+  width: 55px;
   height: auto;
   opacity: 0.75;
   margin: 0 auto;
-
+  z-index: 400;
   /* margin-right: 50%; */
 }
 }

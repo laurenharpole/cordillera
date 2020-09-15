@@ -360,7 +360,7 @@ p.SUBMIT  {
     flex-direction:  column;
     flex: 1;
     border-spacing: 5px;
-    margin: 50px;
+    margin: 20px;
     z-index: 400;
   }
 

@@ -154,9 +154,8 @@ p.SUBMIT  {
   z-index: 400;
   color: #222a6e;;
   margin: 0 auto;
-  /* margin-top: 15px; */
-  /* width: 65%; */
-  padding-bottom: 35vh;
+  width: 65%;
+  padding-bottom: 25vh;
   font-weight: 400;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
@@ -210,8 +209,6 @@ p.SUBMIT  {
     margin-bottom: -4px;
     z-index: 400;
   }
-
-
 
   .bg {
     margin-top: -4vh;
@@ -269,7 +266,7 @@ p.SUBMIT  {
     flex-direction:  column;
     flex: 1;
     border-spacing: 5px;
-    margin: 50px;
+    margin: 20px;
     z-index: 400;
   }
 
