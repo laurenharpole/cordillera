@@ -121,7 +121,7 @@ h2.SUBMIT{
   text-decoration: none;
   color: #222a6e;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 10vw;
   background: #f5e0d0;
   padding-left: 30px;
@@ -133,7 +133,7 @@ h2.SUBMIT{
 
 p.submit{
   position: relative;
-
+  padding-top: 20px;
   margin-left: 60px;
 }
 
@@ -211,14 +211,14 @@ p.SUBMIT  {
           animation-delay: 15s;
 }
 .carousel__slide h2 {
-  margin-bottom: 0.25em;
+  margin-bottom: 0em;
   font-family: "Georgia";
-  font-size: 40px;
+  font-size: 38px;
   z-index: 400;
   color: #222a6e;;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-weight: 600;
-  width: 600px;
+  width: 500px;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
   text-align: left;
@@ -427,23 +427,31 @@ p.SUBMIT  {
 
 /* max-width: 1024px */
 @media screen and (max-width: 700px){
+  .carousel__slide {
+    margin-left: 10px;
+    margin:0 auto;
+
+  }
 
   .carousel__slide h2 {
     margin-bottom: 0.25em;
     font-family: "Georgia";
-    font-size: 30px;
+    font-size: 27px;
     z-index: 400;
     color: #222a6e;;
     margin-bottom: 15px;
     font-weight: 600;
-    width: 400px;
+    width: 350px;
     text-underline-offset: 0.2em;
     text-decoration-thickness: 0.1em;
     text-align: left;
+    margin-left: 0px;
+    margin-right: 40px;
     line-height: 1.2;
+
   }
   .carousel__slide p {
-    max-width: 30em;
+    max-width: 20em;
     font-size: 15px;
     margin-left: 18px;
     color: #222a6e;;
@@ -481,24 +489,21 @@ p.SUBMIT  {
     text-decoration: none;
     color: #222a6e;
     font-weight: normal;
-    font-size: 16px;
-    border-radius: 10vw;
+    font-size: 15px;
+    border-radius: 2vw;
     background: #f5e0d0;
-    padding-left: 105px;
-    padding-right: 105px;
+    padding-left: 85px;
+    padding-right: 85px;
     padding-top: 22px;
     padding-bottom: 22px;
     box-shadow: 0px 4px 14px hsl(4, 19%, 75%);
-    margin:0 auto;
+
   }
 
   p.submit{
-    padding-top: 20px;
-    margin:0 auto;
-    justify-content: center;
-    text-align: center;
+    padding-top: 50px;
     position: relative;
-  
+
   }
 
   img.socials-foot {
