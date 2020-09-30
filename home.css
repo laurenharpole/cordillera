@@ -436,17 +436,16 @@ p.SUBMIT  {
   .carousel__slide h2 {
     margin-bottom: 0.25em;
     font-family: "Georgia";
-    font-size: 27px;
+    font-size: 25px;
     z-index: 400;
     color: #222a6e;;
     margin-bottom: 15px;
     font-weight: 600;
-    width: 300px;
+    /* width: 290px; */
     text-underline-offset: 0.2em;
     text-decoration-thickness: 0.1em;
     text-align: left;
     margin-left: 0px;
-    margin-right: 40px;
     line-height: 1.2;
 
   }
