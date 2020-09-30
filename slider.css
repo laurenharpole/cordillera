@@ -1,0 +1,256 @@
+/****************************************/
+.carousel {
+  height: 100px;
+  /* width: 100vw; */
+  margin-top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+  background-color: none;
+  -webkit-animation: background 20s ease infinite;
+          animation: background 20s ease infinite;
+}
+.carousel__slide {
+
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+          align-content: center;
+
+  z-index: 1;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: carousel 20s ease infinite;
+          animation: carousel 20s ease infinite;
+}
+.carousel__slide--01 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.carousel__slide--02 {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.carousel__slide--03 {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+.carousel__slide--04 {
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+.carousel__slide h2 {
+  padding-top: 80px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Georgia";
+  font-size: 40px;
+  z-index: 400;
+  margin: 0 auto;
+  color: #222a6e;;
+}
+.carousel__slide p {
+  max-width: 30em;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.carousel__pager {
+  position: absolute;
+  z-index: 5;
+  left: 0%;
+  bottom: 32px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.carousel__pager2 {
+  position: absolute;
+  z-index: 5;
+  right: 15%;
+  bottom: 32px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.carousel__marker {
+  overflow: hidden;
+  height: 0;
+  width: 8px;
+  margin: 0 8px;
+  padding-top: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.25;
+  -webkit-animation: marker 20s ease infinite;
+          animation: marker 20s ease infinite;
+}
+.carousel__marker--01 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.carousel__marker--02 {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.carousel__marker--03 {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+.carousel__marker--04 {
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+/****************************************
+ ANIMATIONS
+****************************************/
+@-webkit-keyframes carousel {
+  0% {
+    opacity: 0;
+    z-index: 3;
+    left: -100%;
+  }
+  5% {
+    opacity: 1;
+    z-index: 3;
+    left: 0;
+  }
+  10% {
+    opacity: 1;
+    z-index: 2;
+    left: 0;
+  }
+  25% {
+    opacity: 1;
+    z-index: 2;
+    left: 0;
+  }
+  30% {
+    opacity: 0;
+    z-index: 2;
+    left: 100%;
+  }
+  35% {
+    opacity: 0;
+    z-index: 1;
+    left: -100%;
+  }
+  100% {
+    opacity: 0;
+    z-index: 1;
+    left: -100%;
+  }
+}
+@keyframes carousel {
+  0% {
+    opacity: 0;
+    z-index: 3;
+    left: -100%;
+  }
+  5% {
+    opacity: 1;
+    z-index: 3;
+    left: 0;
+  }
+  10% {
+    opacity: 1;
+    z-index: 2;
+    left: 0;
+  }
+  25% {
+    opacity: 1;
+    z-index: 2;
+    left: 0;
+  }
+  30% {
+    opacity: 0;
+    z-index: 2;
+    left: 100%;
+  }
+  35% {
+    opacity: 0;
+    z-index: 1;
+    left: -100%;
+  }
+  100% {
+    opacity: 0;
+    z-index: 1;
+    left: -100%;
+  }
+}
+
+@-webkit-keyframes marker {
+  1% {
+    opacity: 0.25;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  2% {
+    opacity: 1.00;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  25% {
+    opacity: 1.00;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  26% {
+    opacity: 0.25;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0.25;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes marker {
+  1% {
+    opacity: 0.25;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  2% {
+    opacity: 1.00;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  25% {
+    opacity: 1.00;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  26% {
+    opacity: 0.25;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0.25;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px){
+.carousel__slide h2 {
+  padding-top: 40px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Georgia";
+  font-size: 35px;
+  width: 300px;
+  z-index: 400;
+  margin: 0 auto;
+  color: #222a6e;;
+}
+}

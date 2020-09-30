@@ -111,7 +111,7 @@ img.socials-foot{
   flex-direction:  column;
   flex: 1;
   border-spacing: 5px;
-  margin: 10px;
+  margin: 0px;
   z-index: 400;
 }
 
@@ -132,9 +132,9 @@ img.socials-foot{
 
 #submit.row{
   width: 100%;
-
     display: flex;
 }
+
 h2.SUBMIT{
   font-style: italic;
   font-family: "Georgia";
@@ -143,7 +143,7 @@ h2.SUBMIT{
   margin: 0 auto;
   color: #222a6e;;
   padding-top: 150px;
-  padding-bottom: 15px;
+  margin-bottom: 45vh;
   font-weight: 600;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
@@ -155,7 +155,7 @@ p.SUBMIT  {
   color: #222a6e;;
   margin: 0 auto;
   width: 65%;
-  padding-bottom: 25vh;
+  padding-bottom: 55vh;
   font-weight: 400;
   text-underline-offset: 0.2em;
   text-decoration-thickness: 0.1em;
@@ -182,8 +182,8 @@ p.SUBMIT  {
   position:fixed;
   display: block;
   left: 0;
-  top: auto;
-  bottom: 8%;
+  top: -49%;
+  bottom: auto;
   fill: #b5d7f8;
   width: 600px;
   z-index: -1;
@@ -199,101 +199,10 @@ p.SUBMIT  {
   100% { transform: scale(1.3)   translate(10vw, 170px); }
 }
 
-
-
 /* max-width: 1024px */
 @media screen and (max-width: 1024px){
 
-
-  img.socials-foot {
-    margin-bottom: -4px;
-    z-index: 400;
+  h2.SUBMIT{
+    width: 300px;
   }
-
-  .bg {
-    margin-top: -4vh;
-    height: auto;
-    width: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  /* animated highlight for mobile */
-  a.foot-link  {
-    text-align: center;
-    margin-left: 0px;
-    font-size: 18px;
-    background-position: 50% 85%;
-    z-index: 400;
-  }
-
-  /* animated highlight for mobile */
-  a.foot-link:hover  {
-    background-size: 26% 25px;
-    z-index: 400;
-  }
-
-
-  /* footer info */
-  h1.foot-link  {
-    font-size: 18px;
-    width: 90%;
-    /* margin-left:  21vw; */
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  /* footer header */
-  p.foot-link  {
-    font-size: 18px;
-    margin-left: 10px;
-    text-align: center;
-    z-index: 400;
-  }
-
-
-  #foot.row{
-    display: flex;
-    flex-direction:  column;
-    margin-left: 5%;
-    width: 90vw;
-    z-index: 400;
-  }
-
-  #foot.column{
-    display: flex;
-    flex-direction:  column;
-    flex: 1;
-    border-spacing: 5px;
-    margin: 20px;
-    z-index: 400;
-  }
-
-  #foot.one-column{
-    text-align: center;
-  }
-
-  #foot.two-column{
-    text-align: center;
-  }
-
-  #foot.three-column{
-    text-align: center;
-  }
-
-  #socials.row{
-    margin-left: 30%;
-    overflow: hidden;
-    display:inline-flex;
-    padding-bottom: 17vh;
-  }
-
-  #socials img {
-    width: 7.5vw;
-    height: auto;
-    opacity: 0.75;
-    margin-right: 50%;
-  }
-
 }
