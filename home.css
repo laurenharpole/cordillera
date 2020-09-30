@@ -428,7 +428,7 @@ p.SUBMIT  {
 /* max-width: 1024px */
 @media screen and (max-width: 700px){
   .carousel__slide {
-    margin-left: 10px;
+    padding: 15%;
     margin:0 auto;
 
   }
@@ -441,18 +441,18 @@ p.SUBMIT  {
     color: #222a6e;;
     margin-bottom: 15px;
     font-weight: 600;
-    /* width: 290px; */
+    width: 95%;
     text-underline-offset: 0.2em;
     text-decoration-thickness: 0.1em;
     text-align: left;
-    margin-left: 0px;
+    margin-left: 10px;
     line-height: 1.2;
 
   }
   .carousel__slide p {
     max-width: 20em;
     font-size: 15px;
-    margin-left: 18px;
+    margin-left: 26px;
     color: #222a6e;;
     font-weight: 400;
     text-underline-offset: 0.2em;
