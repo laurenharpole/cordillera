@@ -241,14 +241,15 @@ h2.Name  {
   -moz-transform: scale(1.1, 1); /* Firefox */
   -ms-transform: scale(1.1, 1); /* IE 9+ */
   -o-transform: scale(1.1, 1); /* Opera */
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   width: 70%;
   line-height: 1;
   padding-bottom: 0px;
   text-transform: lowercase;
   text-align: center;
-  padding-left: 15%;
+  padding-left: 0%;
+  display: inline;
 }
 
 /* the positions */
@@ -256,6 +257,26 @@ span.Name {
   background: #cddbf9;
   border-radius: 15px;
   color: #1c58ea;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* the positions for editors*/
+span.Name2 {
+  background: #e7e5fa;
+  border-radius: 15px;
+  color: #756add;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* the positions for creator*/
+span.Name3 {
+  background: rgba(38, 175, 224,0.15);
+  border-radius: 15px;
+  color: rgb(38, 175, 224);
   padding: 1px;
   padding-left: 4px;
   padding-right: 4px;
@@ -273,18 +294,18 @@ h2.Blurb  {
   font-size: 16px;
   color: #898d91;
   font-weight: 400;
-  width: 70%;
+  width: 80%;
   line-height: 1;
   padding-bottom: 0px;
   text-align: center;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 
 /* names */
 p.Position  {
   font-family: "Georgia";
   font-size: 20px;
-  margin-bottom: -2px;
+  margin-bottom: 5px;
   font-weight: 600;
   color: #282d46;
   text-align: center;
