@@ -136,7 +136,7 @@ h2.top{
     position: absolute;
     transform: scale(0.7, 1);
     left: calc(50vw - 90px);
-    top: 5.4vh;
+    top: 45px;
   }
   img.title{
     margin-top: 60px;
