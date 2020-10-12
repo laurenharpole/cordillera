@@ -133,7 +133,6 @@ p.foot-link  {
   margin-left: -8%;
 }
 
-
 .header-block{
   padding-top: 40px;
 }
@@ -453,5 +452,105 @@ a
   transition: color 0.3s ease;
 }
 
+/* initial visibility is hidden, display is none */
+.modalDialog {
+  visibility: hidden;
+  display: none;
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(40, 45, 70, 0.295);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  overflow: scroll;
+}
+
+/* make the current clicked on modal visible, scrollable and displayed
+pointer events are only those currently visible*/
+.modalDialog:target {
+  opacity:1;
+  /* pointer-events: visible; */
+  visibility: visible;
+  display:block;
+  overflow: scroll;
+}
+
+/* make contents of inside modal visible and scrollable */
+.modalDialog > div {
+  width: 700px;
+  position: relative;
+  margin: 10% auto;
+  padding: 10px 0px 90px 0px;
+  border-radius:  16px;
+  background:  #f8f8f8;
+  overflow: scroll;
+  visibility: visible;
+}
+
+h2.data-bio{
+  margin-top: 30px;
+  font-family: "Georgia";
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #282d46;
+  text-align: center;
+}
+
+p.data-bio{
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  font-size: 16px;
+  color: #898d91;
+  font-weight: 400;
+  width: 80%;
+  line-height: 1;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-left: 10%;
+}
+
+img.in-modal-bio{
+  border-radius: 200px;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 0px 5px 10px rgb(0,0,0,0.1);
+}
+
+.launch-top{
+  padding-left: 20px;
+  margin: 0 auto;
+  display:block;
+  width: 80px;
+}
+/* max-width: 1024px */
+@media screen and (max-width: 700px){
+
+  /* make contents of inside modal visible and scrollable */
+  .modalDialog > div {
+    width: 80%;
+    position: relative;
+    margin: 10% auto;
+    padding: 10px 0px 90px 0px;
+    border-radius:  16px;
+    overflow: scroll;
+    visibility: visible;
+  }
 
 }
