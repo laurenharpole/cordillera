@@ -428,9 +428,8 @@ p.SUBMIT  {
 /* max-width: 1024px */
 @media screen and (max-width: 700px){
   .carousel__slide {
-    padding: 15%;
+    padding: 8%;
     margin:0 auto;
-
   }
 
   .carousel__slide h2 {
@@ -500,7 +499,7 @@ p.SUBMIT  {
   }
 
   p.submit{
-    padding-top: 30px;
+    padding-top: 20px;
     position: relative;
 
   }
