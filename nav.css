@@ -115,9 +115,30 @@ nav {
 li.fade {
   opacity: 1;
 }
-
+h2.top{
+  font-family: "Georgia";
+  color: #222a6e;;
+  font-size: 30px;
+  position: absolute;
+  transform: scale(0.7, 1);
+  -webkit-transform: scale(0.7, 1);/* Safari and Chrome */
+  -moz-transform: scale(0.7, 1); /* Firefox */
+  -ms-transform: scale(0.7, 1); /* IE 9+ */
+  -o-transform: scale(0.7, 1); /* Opera */
+  left: calc(50vw - 105px);
+  top: 3.3vh;
+}
 /* max-width: 1024px */
 @media screen and (max-width: 1024px){
+  h2.top{
+    font-family: "Georgia";
+    color: #222a6e;;
+    font-size: 26px;
+    position: absolute;
+    transform: scale(0.7, 1);
+    left: calc(50vw - 90px);
+    top: 5.4vh;
+  }
   img.title{
     margin-top: -240px;
     margin-left: 20px;
